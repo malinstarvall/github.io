@@ -1,0 +1,26 @@
+body
+{
+	background-color:#ecdfca;"
+}
+
+p 
+{ 	color:tomato;
+	font-size: 14px;
+	font-weight:bold;
+	
+}
+
+Link
+{
+	color:tomato;
+	
+}
+a:visited
+{
+	color:tomato;
+}
+
+img
+{
+	border:4px solid Tomato;
+}
