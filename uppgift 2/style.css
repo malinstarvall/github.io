@@ -10,12 +10,6 @@ header{
 	background-color:#fdd2b0;
 	z-index:1;
 }
-.soc{
-	float:right;
-	margin-top:5px;
-	display:inline-flex;
-	padding:0px;
-	}
 
 header ul{
 	list-style:none;
@@ -28,14 +22,18 @@ header ul{
 .social{
 	height:16px;
 	width:16px;
-	border-radius:0px;
-	margin:0;
-	padding-top:0px;
-	padding-bottom:80px;
-    padding-left:0px;
-    padding-right:4px;  
+	border-radius:0px;	
+}
+.social1{
+	height:16px;
+	width:16px;
+	border-radius:0px; 
+	margin-right:10px;
 }
 .social:hover{
+	opacity:0.50;
+}
+.social1:hover{
 	opacity:0.50;
 }
 a{
@@ -201,6 +199,9 @@ footer{
 	.social{
 		height:12px;
         width:12px;
-        padding:1px;
+	}
+	.social1{
+		height:12px;
+        width:12px;
 	}
 
