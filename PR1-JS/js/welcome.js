@@ -31,4 +31,4 @@ let username = searchParams.get("username");
 console.log(username);
 
 // lets show it on the page
-document.getElementById("username").innerHTML = "WELCOME " + username +'!';
+document.getElementById("username").innerHTML = "Welcome " + username +'!';
