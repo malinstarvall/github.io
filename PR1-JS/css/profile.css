@@ -1,0 +1,76 @@
+
+.flex-menu {
+    display:flex;
+    margin-left: 0px;
+	margin-top: 8px;
+
+}
+
+.flex-menu li {
+    margin-left: 15px;
+    margin-right:80px;
+    list-style: none;
+}
+
+.profile-flex-menu li {
+    margin-right:40px;
+    list-style: none;
+}
+
+.profile-p {
+	margin-top: 1rem;
+    margin-left: 2.2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2{
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin-left: 2.2rem;
+}
+
+.like-comment{
+    text-align: right;
+}
+
+.btn-light{
+    margin-left: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+li a {
+	color: grey;
+}
+
+.footer {
+	box-shadow: none;
+}
+
+footer a {
+    color: grey;
+    text-decoration: none;
+	font-size: 20px;
+}
+
+.doggo {
+	color: grey;
+    text-decoration: none;
+	font-size: 15px;
+}
+
+.page-footer {
+	margin-top: 100px;
+}
+
+footer p {
+	font-weight: bold;
+	color: white;
+	font-size: 5px;
+	
+}
+
+img {
+	  box-shadow:  0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
