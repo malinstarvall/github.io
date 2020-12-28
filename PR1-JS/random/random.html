@@ -13,27 +13,36 @@
 	<meta content="Social media website for good dogs | Post and like pictures of mans best friend" name="description">
 	<link href="../img/icon.ico" rel="icon" type="image/x-icon">
 	<title>JavaScript - Chat with Fetch</title>
-	<link href="../css/chat.css" rel="stylesheet">
+	<link href="../css/random.css" rel="stylesheet">
 </head>
 <body>
 	<!-- navbar -->
 	<div class="topnav" id="myTopnav">
-		<a class="active" href="../index.html">FEED</a> <a href="../profile/profile.html">PROFILE</a> <a href="../chat/chat.html">CHAT</a><a href="../random/random.html">IOD</a>
+		<a class="active" href="../index.html">FEED</a> <a href="../profile/profile.html">PROFILE</a> <a href="../chat/chat.html">CHAT</a> <a href="../random/random.html">IOD</a>
 		<div class="dropdown">
 			<div class="dropdown-content">
 				<a href="../index.html">FEED</a> <a href="../profile/profile.html">PROFILE</a> <a href="../chat/chat.html">CHAT</a> <a href="../random/random.html">IOD</a> <a href="../helpdesk/helpcenter.html">HELP</a> <a href="../login/login.html">LOGOUT</a>
 			</div>
 		</div><a href="../helpdesk/helpcenter.html">HELP</a> <a href="../login/login.html">LOGOUT</a> <a class="icon" href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
 	</div>
-	<h1>MEAT-CHAT</h1>
-	<h6>caus dogs loves it!</h6><!-- chatt -->
-	<div id="chatbox">
-		<div id="chatWindow"></div>
-	</div>
-	<div class="input">
-		<input id="userInput" type="text"> <input onclick="postChat()" type="button" value="Send">
-	</div><!-- Footer -->
-	<footer class="page-footer font-small indigo">
+
+			<!--random img of dogs-->
+	<div class='header'>
+  <h1>Welcome to IOD</h1>
+  <h2>Random images of dogs</h2>
+</div>
+<div col class="container1">
+  <div class='images'>
+    <div id='dog-img'>
+      <p>Placeholder Image</p>
+    </div>
+  </div>
+
+  <div class='buttons'>
+    <button id='btn-dog'>Press for cuteness</button>  
+  </div>   
+</div>
+			
 		<!-- Footer Links -->
 		<div class="container">
 			<!-- Grid row-->
@@ -99,9 +108,9 @@
 	</script> <!-- Cookiebar -->
 	 
 	<script src="../js/cookiebar.js">
-	</script> <!-- Chatt -->
+	</script> <!-- random picture -->
 	 
-	<script src="../js/chat.js">
+	<script src="../js/random.js">
 	</script>
 </body>
 </html>
