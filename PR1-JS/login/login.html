@@ -1,60 +1,35 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="../css/login.css">
-    <title>log in</title>
-	
-	<link href="../img/icon.ico" rel="icon" type="image/x-icon" />
-  </head>
-  
-  <!-- BODY -->
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"><!-- Bootstrap CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/login.css" rel="stylesheet">
+	<title>log in</title>
+	<link href="../img/icon.ico" rel="icon" type="image/x-icon">
+</head><!-- BODY -->
 <body>
-		<!-- LOGIN FORM -->
-		<div class="container">
-			<div class="row">
+	<!-- LOGIN FORM -->
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-"></div>
 			<div class="col-sm-">
+				<div class="p-3 mb-2 bg-info text-center text-light rounded" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+					<img alt="Responsive image" src="../img/icon.ico" width="50%">
+					<h1>Account Login</h1>
+					<form action="../index.html" id="formName" name="formName" onsubmit="return checkPass()">
+						<p>Username: <input name="username" type="username"></p>
+						<p>Password: <input name="password" type="password"></p>
+						<p id="passStatus"></p><input type="submit" value="Sign in">
+					</form>
+					<p class="text-center text-light">Forgot <a class="text-light" href="#">User name / password?</a></p><a class="text-center text-light" href="#">Sign Up</a>
 				</div>
-			<div class="col-sm-">
-			<div class="p-3 mb-2 bg-info text-center text-light rounded" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-					
-						
-						<img width="50%" alt="Responsive image" src="../img/icon.ico">
-					
-						<h1>
-							Account Login
-						</h1>
-							<form name="formName" action="../index.html" onsubmit="return checkPass()" >
-							<p>Username: <input type="username"  name="username"></p>
-							<p>Password: <input type="password"  name="password"></p>
-							<p id="passStatus"> </p>
-							<input type="submit" value="Sign in">
-							</form>
-
-								
-						<p class="text-center text-light">
-							Forgot
-
-						<a href="#" class="text-light">
-							User name / password?
-						</a>
-						</p>
-						<a href="#" class="text-center text-light">
-							Sign Up
-						</a>
-						</div>
-					</div>
-				<div class="col-sm-">
-				</div>
-				<!-- JS for passcount -->
-				<script src="../js/login.js"></script>
 			</div>
+			<div class="col-sm-"></div><!-- JS for passcount -->
+			<script src="../js/login.js">
+			</script>
 		</div>
 	</div>
-  </body>
+</body>
 </html>
