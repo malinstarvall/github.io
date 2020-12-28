@@ -1,4 +1,4 @@
-let passSave = "tjoho";
+let passSave = "admin";
 
 
 let passCount = 1;
