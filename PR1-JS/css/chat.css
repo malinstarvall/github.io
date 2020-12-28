@@ -1,0 +1,39 @@
+#chatbox {
+	margin-top:200px;
+	width:50%;
+    text-align:left;
+	background-color:#F7F7F7;
+    height:250px;
+	border:1px solid black;
+	border-radius:5px;
+    overflow: auto;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+
+p.userPost {
+    background-color: #17a2b8;
+    width: 75%;
+	font-size:14px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+	padding:15px;
+}
+
+p.botPost {
+    background-color: darkgrey;
+    width: 75%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-left: 25%;
+	font-size:14px;
+	padding:15px;
+}
+
+.input {
+	margin-top:15px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
