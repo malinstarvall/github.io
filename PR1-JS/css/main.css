@@ -17,7 +17,19 @@ a {
     text-decoration: none;
 }
 
-
+/*cookibar*/
+.cookiebar > button{
+ font-size: 16px;
+}
+ 
+.cookiebar {
+ margin: 20px;
+}
+ 
+.hide{
+ display:none;
+ 
+}
 
 
 
