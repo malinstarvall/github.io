@@ -2588,7 +2588,7 @@ fieldset:disabled a.btn {
   border-color: #ffc107;
 }
 .btn-warning:hover {
-  color: #212529;
+  color: #fff;
   background-color: #e0a800;
   border-color: #d39e00;
 }
@@ -9910,6 +9910,10 @@ button.bg-black:focus {
 .text-white {
   color: #fff !important;
 }
+.text-white:hover {
+  color: #ffc107 !important;
+  
+}
 
 .text-primary {
   color: #000 !important;
@@ -10268,7 +10272,7 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -10359,3 +10363,89 @@ body {
 	height:100px;
 	padding:10px;
 }
+
+
+
+
+
+
+
+.app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #000;
+  font-size: 26px;
+}
+
+.app-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 25px;
+  height: 4px;
+  background: #000;
+}
+
+.app-contact {
+  margin-top: auto;
+  font-size: 8px;
+  color: #000;
+}
+
+.app-form-group {
+  margin-bottom: 15px;
+}
+
+.app-form-group.message {
+  margin-top: 40px;
+}
+
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #000;
+  color: #000;
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+  transition: border-color .2s;
+}
+
+.app-form-control::placeholder {
+  color: #000;
+}
+
+.app-form-control:focus {
+  border-bottom-color: #ddd;
+}
+
+.app-form-button {
+  background: none;
+  border: none;
+  color: #000;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.app-form-button:hover {
+  color: #fff;
+}
+
+a .icon:hover{
+	opacity:0.3;
+}
+
+
+
+
