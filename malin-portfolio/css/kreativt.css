@@ -10363,7 +10363,7 @@ body {
 /* Create four equal columns that sits next to each other */
 .column2 {
   flex: 25%;
-  max-width: 25%;
+  
   padding: 0 4px;
 }
 
