@@ -10363,7 +10363,28 @@ body {
 	height:100px;
 	padding:10px;
 }
+a .icon:hover{
+	opacity:0.3;
+}
 
+@media (max-width: 768px) {
+ a .icon {
+    opacity:1;
+  }
+}
+@media (max-width: 992px) {
+ a .icon {
+    opacity:1;
+  }
+  @media (max-width: 768px) {
+ .icon {
+    opacity:0.3;
+  }
+}
+@media (max-width: 992px) {
+ .icon {
+    opacity:0.3;
+  }
 
 
 
@@ -10442,9 +10463,7 @@ body {
   color: #fff;
 }
 
-a .icon:hover{
-	opacity:0.3;
-}
+
 
 
 
