@@ -234,8 +234,8 @@ button {
 }
 
 button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+  
+
 }
 
 input,
@@ -10427,7 +10427,16 @@ body {
 
 .app-form-control:focus {
   border-bottom-color: #ddd;
+  background-color: #ffc107;
 }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px #fcc107 inset !important;
+}
+
 
 .app-form-button {
   background: none;
@@ -10442,9 +10451,6 @@ body {
   color: #fff;
 }
 
-{
-	background-color:#ffc107;
-}
 
 .icon{
 	width:100px;
