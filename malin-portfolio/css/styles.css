@@ -10265,10 +10265,11 @@ body {
 
 .about-section {
   padding-top: 5rem;
+  padding-bottom:4rem;
   background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .projects-section {
@@ -10358,6 +10359,17 @@ body {
   padding: 5rem 0;
 }
 
+.apply{
+	 color:#ffc107;
+	 font-weight: 650;
+	 opacity:0.8;
+ }
+
+.text-white-20{
+	color:#8c8b8c;
+	font-size:14px;
+}
+
 .icon{
 	width:100px;
 	height:100px;
@@ -10385,10 +10397,6 @@ a .icon:hover{
  .icon {
     opacity:0.3;
   }
-
-
-
-
 
 
 .app-title {
